@@ -24,9 +24,9 @@ from flask import url_for, render_template
 def index():
     return render_template("index.html", data=PORTFOLIO_DATA)
 
-@app.route('/cv')
+@app.route('/cv_negin_amou')
 def download_cv():
-    return send_from_directory(directory=os.getcwd(), path="ResumeTempDSMLUpdate2.pdf")
+    return send_from_directory(directory=os.getcwd(), path="ResumeUpdate.pdf")
 
 @app.route('/edit')
 def edit_data():

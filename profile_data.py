@@ -168,8 +168,8 @@ PORTFOLIO_DATA = {
         "phone": "902-314-7930",
         "location": "Waterloo, Canada",
         "github": "https://github.com/ergopeoxy",
-        "linkedin": "https://linkedin.com/in/negin-amou",
-        "bio": ""
+        "linkedin": "https://www.linkedin.com/in/negin-amou-1142162b1/",
+        "bio": "Graduate student in Data Science and Artificial Intelligence from University of Waterloo, with a strong foundation in software development, machine learning, and cybersecurity. Proficient in Python, C#, JavaScript, and SQL, with industry experience in data analysis, automation, and software optimization. Seeking opportunities to contribute to impactful software and data-driven solutions."
     },
     "skills": [
         {
@@ -209,16 +209,16 @@ PORTFOLIO_DATA = {
         {
             "degree": "Master of Data Science and Artificial Intelligence",
             "institution": "University of Waterloo",
-            "year": "Sep 2024 – Present",
+            "year": "Sep 2024 - Present",
             "gpa": "3.85/4",
-            "description": "Winner of Scotia Bank Entrance Scholarship (CAD 10,000); Worked as Teaching Assistant in CS 136L to answer students’ questions and help them with course material"
+            "descriptions":  ["Winner of Scotia Bank Entrance Scholarship (CAD 10,000)","Worked as Teaching Assistant in CS 136L to answer students’ questions and help them with course material"]
         },
         {
             "degree": "Bachelor of Science in Computer Science and Mathematics",
             "institution": "University of Prince Edward Island",
-            "year": "Sep 2019 – May 2023",
+            "year": "Sep 2019 - May 2023",
             "gpa": "4.24/4.3",
-            "description": "Winner of “School of Mathematical and Computational Sciences Graduating Student Award” (Highest GPA in the department); Authored technical papers on cybersecurity topics, including OSINT, network security, web application security, cryptography, and AI in cybersecurity"
+            "descriptions": ["Winner of “School of Mathematical and Computational Sciences Graduating Student Award” (Highest GPA in the department)", "Authored technical papers on cybersecurity topics, including OSINT, network security, web application security, cryptography, and AI in cybersecurity"]
         }
     ],
     "awards": [
@@ -233,16 +233,28 @@ PORTFOLIO_DATA = {
             "organization": "University of Prince Edward Island",
             "year": "2023",
             "description": "Highest GPA in the department."
+        },
+        {
+            "title": "Academic Excellence Award",
+            "organization": "University of Prince Edward Island",
+            "year": "2019-2023",
+            "description": "Awarded yearly for maintaining a GPA above 4.0"
+        },
+         {
+            "title": "Dean’s Honours List ",
+            "organization": "University of Prince Edward Island",
+            "year": "2019 – 2020 & 2021 – 2022",
+            "description": ""
         }
     ],
     "experiences": [
         {
             "position": "AI Computer Vision Researcher",
             "company": "Waterloo University",
-            "period": "May 2025 – Present",
+            "period": "May 2025 - Present",
             "location": "Waterloo, ON",
             "responsibilities": [
-                "Worked under the supervision of Professor Haas and sponsored by Ontario Power Generation (OPG), automate segmentation and templating of 3d point clouds by training AI models",
+                "Worked under the supervision of Professor Haas and sponsored by Ontario Power Generation (OPG) to automate segmentation and templating of 3d point clouds by training AI models",
                 "Developed Bill Of Material Platform (BOM) to store and categorize nuclear facilities’ structural components",
                 "Developed automated and human guided solutions to accurately estimate point cloud’s area, volume and shape category",
                 "Developing web application user interface with Python Flask and Postgres database",
@@ -252,30 +264,31 @@ PORTFOLIO_DATA = {
         {
             "position": "IT Contractor",
             "company": "Action Aero",
-            "period": "Sep 2024 – June 2025",
+            "period": "Sep 2024 - June 2025",
             "location": "Canada",
             "responsibilities": [
                 "Maintained and debugged existing IT systems",
-                "Provided consultations and researched IT solutions to IT department",
+                "Provided consultations and researched IT solutions",
                 "Communicated with users to implement desired features and solutions"
             ]
         },
         {
             "position": "IT Analyst",
             "company": "Action Aero",
-            "period": "May 2021 – Aug 2024",
+            "period": "May 2021 - Aug 2024",
             "location": "Canada",
             "responsibilities": [
                 "Worked on programming, documenting, and debugging custom-made software such as Shipment Estimator, CRM, OEM, and other ongoing projects",
                 "Automated and optimized daily processes scripting in PowerShell and Python",
                 "Created need-based applications using C# (WinForm/WPF), PHP, and database management systems (Oracle & MySQL)",
                 "Conducted data analysis and reporting to identify patterns in production, inventory, and turnaround time using Oracle and MySQL databases, Crystal Reports, Power BI, and Excel"
+                "Generated analytical reports, and create intuitive data visualization"
             ]
         },
         {
             "position": "Angular Developer",
             "company": "Maximus Canada",
-            "period": "Jan 2021 – Apr 2021",
+            "period": "Jan 2021 - Apr 2021",
             "location": "Canada",
             "responsibilities": [
                 "Passed professional training on using the Angular framework and TypeScript to develop web-applications.",
@@ -287,7 +300,7 @@ PORTFOLIO_DATA = {
         {
             "position": "Cybersecurity Analyst",
             "company": "Invesco Ltd.",
-            "period": "Sep 2020 – Dec 2020",
+            "period": "Sep 2020 - Dec 2020",
             "location": "Canada",
             "responsibilities": [
                 "Worked with SIEMS tools to protect, detect, prevent, and respond to cyber threats",
@@ -298,7 +311,7 @@ PORTFOLIO_DATA = {
         {
             "position": "Tech Lead",
             "company": "University of Prince Edward Island",
-            "period": "Jan 2023 – May 2023",
+            "period": "Jan 2023 - May 2023",
             "location": "Canada",
             "responsibilities": [
                 "Led the Virtual Wellness project with a team of six developers",
@@ -312,37 +325,42 @@ PORTFOLIO_DATA = {
         {
             "name": "Point cloud human guided AI solution",
             "description": "Point cloud human guided AI solution to classify industrial components and estimate their volume & Area",
-            "technologies": ["Python", "Flask", "PostgreSQL"]
+            "technologies": ["Python", "Flask", "PostgreSQL", "JavaScript", "HTML", "CSS"]
         },
         {
             "name": "Image Recognition CNN",
             "description": "Developed image recognition CNN to classify and recognize objects",
-            "technologies": ["CNN", "PyTorch"]
+            "technologies": ["Python", "CNN", "PyTorch"]
         },
         {
             "name": "AI Handwriting Recognition",
             "description": "AI handwriting recognition software",
-            "technologies": ["CNN", "PyTorch"]
+            "technologies": ["Python", "CNN", "PyTorch"]
         },
         {
             "name": "CRM System",
-            "description": "CRM: Developed a Customer Relationship Management system tailored to enhance client interaction tracking and sales processes using C# (WinForm/WPF) to create a desktop program",
+            "description": "Developed a Customer Relationship Management system tailored to enhance client interaction tracking and sales processes using C# (WinForm/WPF) to create a desktop program",
             "technologies": ["C#", "WinForm", "WPF"]
         },
         {
+            "name": "Lib-ela ( Solid Mechanics Python Package )",
+            "description": "Consulted and contributed to the project",
+            "technologies": ["Python"]
+        },
+        {
             "name": "OEM Part Tracker",
-            "description": "OEM: Designed and implemented a system for managing Original Equipment Manufacturer (OEM) part tracking and integration into production workflows using PHP, HTML/CSS and MySQL/Oracle",
+            "description": " Designed and implemented a system for managing Original Equipment Manufacturer (OEM) part tracking and integration into production workflows using PHP, HTML/CSS and MySQL/Oracle",
             "technologies": ["PHP", "HTML", "CSS", "MySQL", "Oracle"]
         },
         {
             "name": "Shipment Estimator",
-            "description": "Shipment Estimator: Built a tool to estimate shipping timelines, streamlining logistics and improving efficiency.",
+            "description": "Developed a workflow to estimated shipping timelines, streamlining logistics and improving efficiency",
             "technologies": ["C#", "PHP", "MySQL"]
         },
         {
             "name": "Quality Control Alert System",
-            "description": "Quality Control Alert System: Automated alerts for quality control issues to ensure timely detection and resolution, enhancing production standards using C# and PHP as backend languages.",
-            "technologies": ["C#", "PHP"]
+            "description": " Automated alerts for quality control issues to ensure timely detection and resolution, enhancing production standards using C# and PHP as backend languages.",
+            "technologies": ["C#", "PHP",  "HTML", "CSS", "MySQL"]
         }
     ]
 }

@@ -464,3 +464,42 @@
         html {
             scroll-behavior: smooth;
         }
+        .section {
+    padding: 2rem;
+    background: #111;
+    color: #fff;
+}
+
+/* Container holding the scrollable area */
+.awards-container {
+    height: 300px; /* Set height as needed */
+    overflow: hidden;
+    position: relative;
+}
+
+/* Scrolling wrapper */
+.awards-scroller {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    animation: scrollAwards 20s linear infinite;
+}
+
+/* Each award card */
+.award-card {
+    flex: 0 0 calc(50% - 0.5rem); /* Two per row */
+    /* background: #222; */
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+/* Auto-scrolling animation */
+@keyframes scrollAwards {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(-50%); /* Adjust depending on content length */
+    }
+}
