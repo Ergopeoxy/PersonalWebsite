@@ -32,5 +32,7 @@ def download_cv():
 def edit_data():
     return f"<pre>{json.dumps(PORTFOLIO_DATA, indent=2)}</pre>"
 
+# if __name__ == '__main__':
+#     app.run(debug=True)
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
